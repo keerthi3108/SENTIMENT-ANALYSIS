@@ -4,24 +4,19 @@ NAME : REVALLY SAI KEERTHI
 INTERN ID: CT04DY2969 DOMAIN : DATA ANALYSIS
 DURATION : 4 WEEKS MENTOR : NEELA SANTOSH
 
-Sentiment Analysis using NLP 
-Overview
+# Sentiment Analysis using NLP 
+## Overview
 This project performs sentiment analysis on textual data such as reviews or tweets using Natural Language Processing (NLP) techniques. It identifies whether text expresses a positive, negative, or neutral sentiment. The analysis includes data cleaning, text preprocessing, model implementation, and insight visualization.
-
 Developed as part of the CodTech Internship Program, this notebook demonstrates practical applications of NLP for real-world data interpretation.
 
-Features
+## Features
 Cleans and preprocesses raw text (tokenization, lemmatization, stopword removal).
-
 Uses the VADER sentiment model from NLTK for accurate polarity scoring.
-
 Categorizes text into Positive, Negative, or Neutral sentiment classes.
-
 Visualizes results using bar charts and word clouds.
-
 Runs seamlessly in Google Colab or Jupyter Notebook.
 
-Tech Stack
+## Tech Stack
 Language: Python 3.x
 
 Libraries: NLTK, pandas, matplotlib, seaborn, wordcloud
@@ -33,7 +28,7 @@ Open the notebook in Google Colab.
 
 Install required packages by running:
 
-python
+## python
 !pip install pandas nltk matplotlib seaborn wordcloud
 Execute all cells to preprocess data, compute sentiment scores, and display insights.
 
